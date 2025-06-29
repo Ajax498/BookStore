@@ -1,0 +1,29 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajax498/bookstore.git"
+  },
+  "author": "Ajay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajax498/bookstore/issues"
+  },
+  "homepage": "https://github.com/Ajax498/bookstore#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.3",
+    "nodemon": "^3.1.10"
+  }
+}
